@@ -1,0 +1,40 @@
+{
+    "name": "brace/demo-full",
+    "type": "project",
+    "description": "Demonstration Project",
+    "keywords": ["Router", "Dependency Injection", "Di"],
+    "homepage": "https://infracamp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Leuffen",
+            "email": "matthes@leuffen.de"
+        }
+    ],
+    "require": {
+        "brace/core": "*",
+        "brace/mod-router": "*",
+        "brace/mod-request-zend": "*"
+    },
+
+    "require-dev": {
+        "phore/tester": "*",
+        "phore/http-client": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brace\\Router\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+        }
+    }
+}
