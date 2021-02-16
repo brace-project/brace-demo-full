@@ -14,7 +14,7 @@
     "require": {
         "brace/core": "*",
         "brace/mod-router": "*",
-        "brace/mod-request-zend": "*",
+        "brace/mod-request-laminas": "*",
         "brace/mod-assets": "*",
         "brace/uikit-coreui": "*"
     },
