@@ -6,7 +6,7 @@ use Brace\Core\BraceApp;
 use Brace\UiKit\CoreUi\Template\Page;
 
 AppLoader::extend(function (BraceApp $app) {
-    $app->router->onGet("/", function() {
+    $app->router->on("GET@/", function() {
         return Page::createCoreUiPage()
             ->loadMarkdown(__DIR__ . "/tpl/welcome.md");
     });
